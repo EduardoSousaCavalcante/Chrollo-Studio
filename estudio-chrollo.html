@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Estúdio Chrollo — Agência de Criatividade</title>
+<title>Chrollo.Studio — Criatividade, Design & Código</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -372,6 +372,7 @@
     border-radius: 24px;
     overflow: hidden;
   }
+  .service-card.full-row { grid-column: span 3; }
   .service-card {
     background: var(--black);
     padding: 2.5rem;
@@ -953,6 +954,7 @@
     .hero-title { font-size: 3rem; }
     #sobre { grid-template-columns: 1fr; gap: 3rem; }
     .services-grid { grid-template-columns: 1fr; }
+    .service-card.full-row { grid-column: span 1; }
     .process-grid { grid-template-columns: 1fr 1fr; }
     .content-layout { grid-template-columns: 1fr; gap: 3rem; }
     .analytics-layout { grid-template-columns: 1fr; }
@@ -973,7 +975,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo">Estúdio<span>.</span>Chrollo</a>
+  <a href="#" class="nav-logo">Chrollo<span>.</span>Studio</a>
   <ul class="nav-links">
     <li><a href="#sobre">Sobre</a></li>
     <li><a href="#servicos">Serviços</a></li>
@@ -995,15 +997,15 @@
   <div class="hero-blob blob2"></div>
   <div class="hero-blob blob3"></div>
 
-  <div class="hero-eyebrow">Agência de criatividade — São Paulo, Brasil</div>
+  <div class="hero-eyebrow">Criatividade, design & código — São Paulo, Brasil</div>
   <h1 class="hero-title">
-    Criatividade<br>
-    <em>que move</em><br>
-    <span class="line-accent">marcas.</span>
+    Design, código<br>
+    <em>com</em><br>
+    <span class="line-accent">Presença digital</span>
   </h1>
   <div class="hero-bottom">
     <p class="hero-desc">
-      Transformamos a essência da sua marca em conteúdo que conecta, identidades que impressionam e estratégias que convertem.
+      Da identidade visual ao código: criamos marcas completas, sites que convertem e conteúdo que conecta de verdade.
     </p>
     <div class="hero-actions">
       <a href="#contato" class="btn-primary">Começar projeto →</a>
@@ -1023,17 +1025,21 @@
     <span class="marquee-item">Identidade Visual</span>
     <span class="marquee-item">Rotina de Conteúdo</span>
     <span class="marquee-item">Social Media</span>
+    <span class="marquee-item">Desenvolvimento Web</span>
     <span class="marquee-item">Branding</span>
     <span class="marquee-item">Análise de Desempenho</span>
     <span class="marquee-item">Motion Design</span>
+    <span class="marquee-item">React & Next.js</span>
     <span class="marquee-item">Copywriting</span>
     <span class="marquee-item">Estratégia de Marca</span>
     <span class="marquee-item">Identidade Visual</span>
     <span class="marquee-item">Rotina de Conteúdo</span>
     <span class="marquee-item">Social Media</span>
+    <span class="marquee-item">Desenvolvimento Web</span>
     <span class="marquee-item">Branding</span>
     <span class="marquee-item">Análise de Desempenho</span>
     <span class="marquee-item">Motion Design</span>
+    <span class="marquee-item">React & Next.js</span>
     <span class="marquee-item">Copywriting</span>
     <span class="marquee-item">Estratégia de Marca</span>
   </div>
@@ -1056,9 +1062,9 @@
   </div>
   <div class="about-text reveal">
     <div class="section-label">Sobre o estúdio</div>
-    <h2 class="section-title">Somos o estúdio que sua marca <em>merecia.</em></h2>
-    <p>O Estúdio Chrollo nasceu da crença de que bons negócios merecem uma presença criativa à altura. Unimos estratégia, design e storytelling para construir marcas que ficam na memória e no feed.</p>
-    <p>Trabalhamos com marcas que querem crescer de verdade: com identidade sólida, conteúdo consistente e dados que orientam cada decisão.</p>
+    <h2 class="section-title">Design <em>e código</em><br>sob o mesmo teto.</h2>
+    <p>O Chrollo.Studio nasceu da fusão do código de dinamiza e o design que envolve. Unimos estratégia, design e desenvolvimento para construir marcas completas — da identidade visual ao site publicado, passando pelo conteúdo que sustenta o crescimento.</p>
+    <p>Trabalhamos com marcas que querem crescer de verdade: com identidade sólida, site próprio, conteúdo consistente e dados que orientam cada decisão.</p>
     <div class="stats-grid">
       <div class="stat-item">
         <div class="stat-num">120<span>+</span></div>
@@ -1068,13 +1074,13 @@
         <div class="stat-num">4<span>×</span></div>
         <div class="stat-label">Crescimento médio de reach</div>
       </div>
+      <div class="stat-item" style="background: var(--black);">
+        <div class="stat-num" style="color: var(--accent);">01<span style="font-size:1.5rem">✦</span></div>
+        <div class="stat-label" style="color: rgba(245,242,237,0.5);">Só estúdio com design + código</div>
+      </div>
       <div class="stat-item">
         <div class="stat-num">98<span>%</span></div>
         <div class="stat-label">Clientes satisfeitos</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">5<span>+</span></div>
-        <div class="stat-label">Anos de estrada</div>
       </div>
     </div>
   </div>
@@ -1154,6 +1160,46 @@
         <span class="tag">Tom de voz</span>
         <span class="tag">Personas</span>
         <span class="tag">Naming</span>
+      </div>
+    </div>
+    <div class="service-card full-row" style="--card-accent: #c8ff00">
+      <div style="display:flex; gap: 3rem; align-items: flex-start; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 220px;">
+          <div class="service-icon" style="background: rgba(200,255,0,0.12);">💻</div>
+          <h3>Desenvolvimento Web</h3>
+          <p>Sites, landing pages e sistemas web com código limpo, rápido e escalável. Entregamos a identidade visual <em style="color: var(--accent); font-style: normal; font-weight: 600;">e</em> o site — tudo integrado, do conceito ao deploy.</p>
+          <div class="service-tags" style="margin-top: 1.25rem;">
+            <span class="tag">React</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Landing Page</span>
+            <span class="tag">E-commerce</span>
+            <span class="tag">SEO técnico</span>
+            <span class="tag">Performance</span>
+          </div>
+        </div>
+        <div style="flex: 1.4; min-width: 280px;">
+          <div style="background: #0d1117; border-radius: 14px; padding: 1.25rem 1.5rem; font-family: 'Courier New', monospace; font-size: 0.78rem; line-height: 1.8; border: 1px solid rgba(200,255,0,0.12);">
+            <div style="display:flex; gap: 6px; margin-bottom: 1rem;">
+              <span style="width:10px;height:10px;border-radius:50%;background:#ff5f57;display:inline-block;"></span>
+              <span style="width:10px;height:10px;border-radius:50%;background:#febc2e;display:inline-block;"></span>
+              <span style="width:10px;height:10px;border-radius:50%;background:#28c840;display:inline-block;"></span>
+            </div>
+            <div><span style="color:#7b5cf0">import</span> <span style="color:#c8ff00">BrandSystem</span> <span style="color:#7b5cf0">from</span> <span style="color:#ff7b7b">'@chrollo/identity'</span></div>
+            <div><span style="color:#7b5cf0">import</span> <span style="color:#c8ff00">{ Site, SEO }</span> <span style="color:#7b5cf0">from</span> <span style="color:#ff7b7b">'@chrollo/web'</span></div>
+            <div style="margin-top:0.5rem"><span style="color:#888">// identidade + código, num só pacote</span></div>
+            <div><span style="color:#7b5cf0">export default function</span> <span style="color:#c8ff00">SuaMarca</span>() {</div>
+            <div style="padding-left:1.2rem"><span style="color:#7b5cf0">return</span> (</div>
+            <div style="padding-left:2.4rem"><span style="color:#ff7b7b">&lt;Site</span></div>
+            <div style="padding-left:3.6rem"><span style="color:#c8ff00">brand</span>=<span style="color:#ff7b7b">{BrandSystem}</span></div>
+            <div style="padding-left:3.6rem"><span style="color:#c8ff00">seo</span>=<span style="color:#ff7b7b">{SEO.optimized}</span></div>
+            <div style="padding-left:3.6rem"><span style="color:#c8ff00">performance</span>=<span style="color:#ff7b7b">"100"</span></div>
+            <div style="padding-left:2.4rem"><span style="color:#ff7b7b">/&gt;</span></div>
+            <div style="padding-left:1.2rem">)</div>
+            <div>}</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -1453,9 +1499,9 @@
     <!-- Logo variations -->
     <div class="identity-card">
       <div class="logo-variations">
-        <div class="logo-var xl">Estúdio Chrollo</div>
-        <div class="logo-var outlined">Estúdio Chrollo</div>
-        <div class="logo-var small">ESTÚDIO · CHROLLO · 2020</div>
+        <div class="logo-var xl">Chrollo.Studio</div>
+        <div class="logo-var outlined">Chrollo.Studio</div>
+        <div class="logo-var small">CHROLLO · STUDIO · 2020</div>
       </div>
       <div class="identity-card-label">Variações de logo</div>
     </div>
@@ -1483,7 +1529,7 @@
   <div class="testimonials-grid reveal">
     <div class="testimonial-card">
       <div class="testimonial-stars">★★★★★</div>
-      <p class="testimonial-text">"O Estúdio Chrollo transformou a forma como a gente se comunica. Em 3 meses, triplicamos o alcance e os DMs de clientes potenciais aumentaram muito."</p>
+      <p class="testimonial-text">"O Chrollo.Studio transformou a forma como a gente se comunica. Em 3 meses, triplicamos o alcance e os DMs de clientes potenciais aumentaram muito."</p>
       <div class="testimonial-author">
         <div class="author-avatar" style="background: rgba(200,255,0,0.2); color: var(--accent);">MA</div>
         <div>
@@ -1545,8 +1591,12 @@
       <div class="faq-a">Todo cliente recebe um relatório mensal com as principais métricas das plataformas gerenciadas. Também realizamos uma reunião bimestral de alinhamento estratégico para ajustar rotas e discutir os dados.</div>
     </div>
     <div class="faq-item" onclick="toggleFaq(this)">
-      <div class="faq-q">Vocês atendem qualquer segmento de mercado? <span class="faq-icon">+</span></div>
-      <div class="faq-a">Atendemos marcas de praticamente todos os segmentos — moda, saúde, gastronomia, tecnologia, serviços B2B e mais. O que buscamos é marcas que estejam comprometidas com crescimento consistente.</div>
+      <div class="faq-q">Vocês desenvolvem sites além do design? <span class="faq-icon">+</span></div>
+      <div class="faq-a">Sim — e essa é uma das nossas maiores diferenciais. Além de criar a identidade visual completa, desenvolvemos o site em React/Next.js com código limpo, otimizado para SEO e performance. Você sai com marca e presença digital prontas, sem precisar contratar uma segunda empresa.</div>
+    </div>
+    <div class="faq-item" onclick="toggleFaq(this)">
+      <div class="faq-q">Que tecnologias vocês usam no desenvolvimento? <span class="faq-icon">+</span></div>
+      <div class="faq-a">Trabalhamos principalmente com React, Next.js, TypeScript e Node.js no backend quando necessário. Para e-commerce usamos Shopify ou soluções customizadas. Entregamos projetos com Lighthouse score 90+ em performance, acessibilidade e SEO técnico.</div>
     </div>
   </div>
 </section>
@@ -1557,10 +1607,10 @@
     <div class="cta-blob1"></div>
     <div class="cta-blob2"></div>
     <div class="cta-label">Vamos trabalhar juntos</div>
-    <h2 class="cta-title">Pronto para sua marca<br><em>decolar?</em></h2>
-    <p class="cta-desc">Conte-nos sobre seu projeto. Em até 24h, um estrategista do Estúdio Chrollo entra em contato com uma proposta personalizada.</p>
+    <h2 class="cta-title">Sua marca completa:<br><em>design + código.</em></h2>
+    <p class="cta-desc">Conte-nos sobre seu projeto. Em até 24h, alguém do Chrollo.Studio entra em contato com uma proposta personalizada.</p>
     <div class="cta-actions">
-      <a href="mailto:oi@estudiochrollo.com.br" class="btn-accent">Enviar mensagem →</a>
+      <a href="mailto:oi@chrollo.studio" class="btn-accent">Enviar mensagem →</a>
       <a href="https://wa.me/5511999999999" class="btn-ghost">💬 WhatsApp</a>
     </div>
   </div>
@@ -1570,8 +1620,8 @@
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <span class="logo">Estúdio<span>.</span>Chrollo</span>
-      <p>Agência de criatividade focada em transformar marcas com identidade, conteúdo e dados. São Paulo, Brasil.</p>
+      <span class="logo">Chrollo<span>.</span>Studio</span>
+      <p>Criatividade, design e código para marcas que querem crescer de verdade. São Paulo, Brasil.</p>
       <div class="footer-social">
         <a href="#" class="social-btn" aria-label="Instagram">📸</a>
         <a href="#" class="social-btn" aria-label="LinkedIn">💼</a>
@@ -1583,6 +1633,7 @@
       <h4>Serviços</h4>
       <ul>
         <li><a href="#servicos">Identidade Visual</a></li>
+        <li><a href="#servicos">Desenvolvimento Web</a></li>
         <li><a href="#conteudo">Rotina de Conteúdo</a></li>
         <li><a href="#analise">Análise de Desempenho</a></li>
         <li><a href="#servicos">Social Media</a></li>
@@ -1604,7 +1655,7 @@
     <div class="footer-col">
       <h4>Contato</h4>
       <ul>
-        <li><a href="mailto:oi@estudiochrollo.com.br">oi@estudiochrollo.com.br</a></li>
+        <li><a href="mailto:oi@chrollo.studio">oi@chrollo.studio</a></li>
         <li><a href="tel:+5511999999999">+55 11 99999-9999</a></li>
         <li><a href="#">Agendar reunião</a></li>
         <li><a href="#">Solicitar proposta</a></li>
@@ -1612,7 +1663,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2025 Estúdio Chrollo. Todos os direitos reservados.</span>
+    <span>© 2025 Chrollo.Studio. Todos os direitos reservados.</span>
     <span>Feito com ✦ em São Paulo</span>
   </div>
 </footer>
